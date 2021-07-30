@@ -1,0 +1,61 @@
+{
+  
+  "pages": [
+    "pages/index/index",
+    "pages/discovery/index",
+    "pages/message/index",
+    "pages/profile/index"
+  ],
+  
+  "window": {
+    "defaultTitle": "Find Job Covid-19",
+    "titleBarColor": "#FFF",
+    "titleColor": "#FFBA12",
+    "backgroundColor": "#FFF"
+  },
+
+  "window": {
+    "transparentTitle": "auto"
+  },
+  "usingComponents": {
+    "typography": "@tiki.vn/tini-style/es/index",
+     "icon": "@tiki.vn/tini-ui/es/tu-icon/index",
+      "list": "components/list/index",
+      "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+      "tab-content": "@tiki.vn/tini-ui/es/tabs/tab-content/index",
+
+    "list-item": "@tiki.vn/tini-ui/es/list/list-item/index",
+    "block-header": "components/block-header/index",
+    "block-variant": "components/block-variant/index"  
+  },
+  "tabBar": {
+    "backgroundColor": "#ffe39d",
+    "radius": "20px",
+        "items": [{
+                "name": "",
+                "pagePath": "pages/index/index",
+                "icon": "images/icon/Home.png",
+                "activeIcon": "images/active/Home.png"
+            },
+              {
+                "name": "",
+                "pagePath": "pages/discovery/index",
+                "icon": "images/icon/Plus.png",
+                "activeIcon": "images/active/Plus.png"
+            },
+            {
+                "name": "",
+                "pagePath": "pages/message/index",
+                "icon": "images/icon/Chat.png",
+                "activeIcon": "images/active/Chat.png"
+            },
+           
+             {
+                "name": "",
+                "pagePath": "pages/profile/index",
+                "icon": "images/icon/Adjusment.png",
+                "activeIcon": "images/active/Adjusment.png"
+            }
+        ]
+    }
+}

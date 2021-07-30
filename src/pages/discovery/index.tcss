@@ -1,0 +1,76 @@
+.info{
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    margin-bottom: 20%;
+    margin-left : 5%;
+    width: 80%;
+    height: 110px;    
+    color: white;  
+    flex-direction: column;    
+}
+
+.interactive{
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    margin-bottom: 70%;
+    margin-left : 82%;
+    width: 20%;
+    height: 110px;    
+    color: white;  
+    flex-direction: column;    
+}
+
+.Follower{
+  width: 46px;
+  height:53px;
+  padding: 5px;
+}
+
+.Like{
+ width: 43px;
+  height:53px;
+  padding: 5px;
+}
+.Share{
+ width: 43px;
+  height:53px;
+  padding: 5px;
+}
+.Comment{
+ width: 43px;
+  height:53px;
+  padding: 5px;
+}
+.floating{
+  width: 86px;
+  height: 106px;
+  padding: 5px;
+  margin-left:-40px;
+  margin-top: -10px;
+}
+.divsound{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.sound{
+  width: 16px;
+  height: 16px;
+  padding-left: 5px;
+}
+
+.idname{
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+}
+
+.block-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "Find Job Covid-19",
+  "version": "1.0.2",
+  "tiki": {
+    "appIdentifier": "vn.tiki.hackathon.vieclamcovid",
+    "buildNumber": 2
+  },
+  "dependencies": {
+    "@tiki.vn/tini-style": "^0.1.1",
+    "@tiki.vn/tini-ui": "^0.1.1"
+  },
+  "usingComponents": {
+    "typography": "@tiki.vn/tini-style/es/index",
+    "icon": "@tiki.vn/tini-ui/es/tu-icon/index",
+    "list": "components/list/index",
+    "tabs": "@tiki.vn/tini-ui/es/tabs/index",
+    "tab-content": "@tiki.vn/tini-ui/es/tabs/tab-content/index",
+    "list-item": "@tiki.vn/tini-ui/es/list/list-item/index",
+    "block-header": "components/block-header/index",
+    "block-variant": "components/block-variant/index"
+  }
+}

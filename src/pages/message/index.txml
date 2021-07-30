@@ -1,0 +1,190 @@
+
+<view>
+  <block class="title"><view style="width: 100%; height: 20px; font-weight: bold; margin:5px;"> Gần đây</view></block>
+  <carousel>
+
+    <carousel-item >
+      <view class="carousel-item">
+            <view class="Person1">
+                <view class="Online"></view>
+            </view>
+            <view class="Person2">
+                <view class="Online"></view>
+            </view>
+            <view class="Person3">
+                <view class="Offline"></view>
+            </view>
+            <view class="Person4">
+                <view class="Online"></view>
+            </view>
+            <view class="Person10">
+                <view class="Online"></view>
+            </view>
+          </view>  
+    </carousel-item>
+
+    <carousel-item >
+      <view class="carousel-item" >
+       <view class="Person6">
+                <view class="Offline"></view>
+            </view>
+            <view class="Person7">
+                <view class="Online"></view>
+            </view>
+            <view class="Person8">
+                <view class="Offline"></view>
+            </view>
+            <view class="Person9">
+                <view class="Online"></view>
+            </view>
+            <view class="Person5">
+                <view class="Online"></view>
+            </view>
+      </view>
+    </carousel-item>
+  </carousel>
+</view>
+ <block class="title"> <view style="width: 100%; height: 20px; font-weight: bold; margin:5px;">Tin nhắn</view></block>
+<view>
+
+  <view class="block-content">
+    <scroll-view 
+      scroll-y="{{true}}" 
+      style="height: 640px;" 
+      onScroll="scroll" 
+      scroll-top="{{scrollTop}}">
+      <view id="blue" class="scroll-view-item bc_blue">
+        <list-item>          
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl2}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl3}}"/>
+          </view>
+      </list-item>
+      <list-item>
+           <text >Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl4}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl5}}"/>
+          </view>
+      </list-item>
+      </view>
+      <view id="red"  class="scroll-view-item bc_red">
+        <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl1}}"/>
+          </view>
+      </list-item><list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl}}"/>
+          </view>
+      </list-item><list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl2}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl3}}"/>
+          </view>
+      </list-item>
+        <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl1}}"/>
+          </view>
+      </list-item>
+      </view>
+      <view id="yellow" class="scroll-view-item bc_yellow">
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl4}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl3}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl3}}"/>
+          </view>
+      </list-item>
+      </view>
+      <view id="green" class="scroll-view-item bc_green">
+         <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl2}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl1}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl4}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl}}"/>
+          </view>
+      </list-item>
+      <list-item>
+          <text>Hey, deadline is coming, check your message to check your jobs, thanks</text>
+          <view slot="prefix">
+         <avatar size="sm" style="margin:8px" src="{{defaultUrl2}}"/>
+          </view>
+      </list-item>
+      
+      </view>
+    </scroll-view>
+  </view>
+  <view class="taps">
+    <view class="tap" onTap="scrollToTop">
+      <icon class="scroll-icon" type="arrow_up" size="24" color="#808089" />
+    </view>
+  </view>
+</view>

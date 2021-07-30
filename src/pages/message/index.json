@@ -1,0 +1,10 @@
+{
+  "defaultTitle": "Tin nhắn",
+  "transparentTitle": "none",
+  "usingComponents": {
+    "avatar": "@tiki.vn/tini-ui/es/avatar/index",
+    "block-header": "components/block-header/index",
+    "list": "components/list/index",
+    "list-item": "@tiki.vn/tini-ui/es/list/list-item/index"
+  }
+}

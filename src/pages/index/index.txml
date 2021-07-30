@@ -1,0 +1,111 @@
+<view class="wrap {{fixedHeader ? 'fix-search' : ''}}">
+  
+  <view class="search">
+    <input class="input" type="search" placeholder="Tìm kiếm công ty, việc làm" />
+  </view>
+
+  <view class="top">
+    <view class="top-content">
+      <text class="greeting" number-of-lines="{{1}}">
+        Find Job Covid-19
+      </text>
+      
+
+      <view class = "header">
+        <view class="header-left">
+              <list-item>
+      <view> <view>
+               <view class="block-content">
+                <button class="city" onTap="onGetLocation"> > {{location}}</button>
+                  </view>
+                 
+                </view>
+      </view>
+      <view slot="prefix">
+       
+      </view>
+      <view slot="prefix">
+        <icon type="location" size="30" color="#ffe390" />
+        <text style="font-weight: bold; padding-top: -2px; font-size: 16px;"> 108 Bà Triệu</text>
+        
+      </view>
+    
+            
+             
+            </list-item>
+          </view>
+
+        <block class="header-right">
+        </block>
+      </view> 
+    </view>
+    
+  </view>
+  <view>
+        <view>
+        <carousel>
+          <carousel-item>
+            <view class="carousel-item" style="background">
+              <image class = "banner" src = "../../images/banner.png" />
+            </view>
+          </carousel-item>
+          <carousel-item>
+            <view class="carousel-item" style="background">
+              <image class = "banner" src = "../../images/banner2.png" />
+            </view>
+          </carousel-item>
+          <carousel-item>
+            <view class="carousel-item" style="background">
+              <image class = "banner" src = "../../images/banner3.png" />
+            </view>
+          </carousel-item>
+        </carousel>
+      </view>
+
+
+      <image class="JobTitle" src = "../../images/Title/1.png"/>
+      <view>
+        <carousel>
+          <carousel-item>
+            <view class="carousel-item1" style="background">
+              <image class = "banner" src = "../../images/Influencer/1.png" />
+            </view>
+          </carousel-item>
+          <carousel-item>
+            <view class="carousel-item1" style="background">
+              <image class = "banner" src = "../../images/Influencer/2.png" />
+            </view>
+          </carousel-item>
+          <carousel-item>
+            <view class="carousel-item1" style="background">
+              <image class = "banner" src = "../../images/Influencer/3.png" />
+            </view>
+          </carousel-item>
+        <carousel-item>
+            <view class="carousel-item1" style="background">
+              <image class = "banner" src = "../../images/Influencer/4.png" />
+            </view>
+          </carousel-item>
+        </carousel>
+      </view>
+      <image class="Discount" src ="../../images/Discount Components.png"/>
+      <image class="JobTitle" src = "../../images/Title/2.png"/>
+
+      <view>
+          <image class="job" src = "../../images/job/1.png"/>
+          <image class="job" src = "../../images/job/2.png"/>
+      </view>
+
+      <image class="ut" src ="../../images/job/UTComponents.png"/>
+
+      <view>
+          <image class="job" src = "../../images/job/3.png"/>
+          <image class="job" src = "../../images/job/4.png"/>
+      </view>
+  </view>
+
+</view>
+
+ 
+ 
+ 

@@ -1,0 +1,204 @@
+
+/* Header */
+/*search title*/
+
+:root {
+  --control-width: 90px;
+  --cart-size: 24px;
+}
+
+.wrap {
+	position: relative;
+}
+
+.top-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nortifi {
+  width: var(--cart-size);
+  height: var(--cart-size);
+  position: absolute;
+  top: calc(var(--tf-status-bar-height) + 15px);
+  right: calc(var(--control-width) + 8px);
+}
+
+.fix-search .top-header {
+	background: #fff;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+	position: fixed;
+  background: #ffffff;
+	top: calc(var(--tf-status-bar-height) + 80px);
+	left: 0;
+	right: 0;
+  padding: 8px 16px;
+}
+
+.fix-search .search {
+	background: #fff;
+  border-bottom: solid 1px #fff;
+}
+
+.search .input {
+  width: 100%;
+  border-radius: 50px;
+  background-color: #e9e9e9;
+	transition: width 0.2s;
+  display: block;
+}
+
+.fix-search .search {
+	position: fixed;
+  padding-top: calc(var(--tf-status-bar-height) + 5px);
+  top: 0;
+}
+
+.fix-search .search input {
+  
+	width: calc(100% - var(--control-width) - var(--cart-size));
+}
+
+.top {
+  padding-top: calc(var(--tf-status-bar-height));
+  background: #fff;
+}
+
+.top-content {
+	width: 100%;
+	height: 90px;
+  background: #fff;
+	margin: 0 auto;
+}
+
+.greeting {
+  color: #111;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+
+.header{
+  display: inline-block; 
+  padding-left:5px;
+ 
+}
+.header-left{
+padding-left: 5px;
+}
+.header-right{
+}
+
+
+.direction {
+   font-weight: var(--font-weight-black);
+   font-size: var(--font-size-base);
+}
+
+.banner {
+  border-radius:50px;
+  margin: 50px 0px 0px 10px;
+  width: 90%;
+  height: auto;   
+  padding: 5px 5px 5px 15px;
+  height: auto; 
+}
+.JobTitle{
+  width: 45%;
+  height: auto;
+  left: 10px;
+  top: 323px;
+  margin-left: 5px;
+  padding: 5px;
+}
+.Susgestion{
+  display: inline-block;
+  width: 30%;
+  height:auto;
+  padding:5px;
+  
+}
+
+/* //fixed nav */
+
+.location-icon{
+  display: inline-block;
+  margin-left: 8px;
+}
+.mt-icon{
+  padding: 5px;
+}
+
+.Discount{
+ 
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 5px;
+}
+
+
+ 
+ /*carosel*/
+ .carousel-item {
+  height: 250px;
+  margin-top:-15px;
+}
+ .carousel-item1 {
+  height: 190px;
+  margin-top:-40px;
+}
+
+.job{
+  display: inline-block;
+  width: 45%;
+  height:auto;
+  padding:5px;
+  
+}
+
+.ut{
+  width: 90%;
+  height: auto;
+  left: 10px;
+  top: 323px;
+  margin-left: 5px;
+  padding: 10px;
+}
+/*location*/
+.component-item {
+  border-top-width: 1px;
+}
+
+button {
+  margin-top: 5px;
+  width: 100%;
+  height: 20%;
+  background-color: #ffe390;
+  border: solid #ffe390;
+  font-size: var(--font-size-x-small);
+  border-radius:50px;
+}
+
+.city{
+  border-radius:50px;
+  padding: 3px;
+  font-size: var(--font-size-x-small);
+  color: #111;
+  font-weight:bold;
+}
+.text-full {
+  margin-top: 8px;
+  display: block;
+  word-wrap: break-word;
+
+}

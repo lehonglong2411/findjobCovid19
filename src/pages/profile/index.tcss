@@ -1,0 +1,271 @@
+
+  
+  .body {  
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .service-text {
+    width: 72px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 580px;
+    left: 38px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .intro {
+    width: 308px;
+    height: 103px;
+    background: url("intro");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 449px;
+    left: 33px;
+    overflow: hidden;
+  }
+  .content {
+    width: 308px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .title {
+    width: 122px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .service {
+    width: 331px;
+    height: 450px;
+    background: url("service");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 616px;
+    left: 22px;
+    overflow: hidden;
+  }
+  .tsthantre {
+    width: 331px;
+    height: 78px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939680/img/service/tsthantre_kfbuv3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 279px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  .haircut {
+    width: 331px;
+    height: 78px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939680/img/service/haircut_fslqgm.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .uonsau {
+    width: 331px;
+    height: 78px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939681/img/service/uonsau_lxvwjd.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .banhmy {
+    width: 331px;
+    height: 78px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939680/img/service/banhmy_jslkym.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 186px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .blackpink{
+    width: 331px;
+    height: 78px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939680/img/service/blackpink_boiuux.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 372px;
+    left: 0px;
+    overflow: hidden;
+  }
+ 
+  .name {
+    color: #fff;
+  }
+  .header {
+    width: 100%;
+    height: 47px;
+    background: url("header");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 43px;
+    left: 33px;
+    overflow: hidden;
+  }
+  .header-left {
+    width: 114px;
+    height: 47px;
+    background: url("header-left");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .findjob {
+    width: 50px;
+    height: 47px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939679/img/logo/findjob_lzfghh.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .tiki {
+    width: 50px;
+    height: 47px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939679/img/logo/tiki_gxavo6.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 63px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+  .header-right {
+    width: 85px;
+    height: 30px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939679/img/header-right_pkea9f.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 9px;
+    left: 227px;
+    overflow: hidden;
+  }
+  .name {
+    color: #fff;
+  }
+  .name {
+    color: #fff;
+  }
+  .profile {
+    width: 100%;
+    height: 232px;
+    background: url("profile");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 171px;
+    left: 29px;
+    overflow: hidden;
+  }
+  .main {
+    width: 231px;
+    height: 232px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939681/img/profile_ajfkds.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .contact {
+    width: 65px;
+    height: 211px;
+    background: url("https://res.cloudinary.com/findjobcovid19/image/upload/v1626939679/img/contact_a6yyvr.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    overflow: hidden;
+  }
+  .text-profile {
+    width: 94px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 117px;
+    left: 33px;
+    font-weight: Semi Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  

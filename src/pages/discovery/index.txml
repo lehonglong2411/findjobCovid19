@@ -1,0 +1,32 @@
+ <view class="block-content">
+ <video
+                object-fit="cover"
+                controls="true"
+                style="width: 100%; height: 100%;"
+                onPlay="onPlay"
+                onPause="onPause"
+                onEnd="onEnd"
+                onTimeUpdate="onTimeUpdate"
+                plays-inline
+                loop
+                src="https://res.cloudinary.com/findjobcovid19/video/upload/v1626943203/video/1_gc4n8z.mp4"
+                autoplay = "false"
+          />
+</view>
+<view class = "info">
+  <text class = "idname">@findjobCovid19</text>
+  <text class = "caption">Những câu nói hay nhất của Phó Thủ tưởng Vũ Đức Đam và tinh thần Việt Nam</text>
+  <view class = "divsound">
+      <image class ="sound" src = "../../images/icon/music.png" />
+      <text class = "sound">Tự Hào Việt Nam</text>      
+  </view>   
+</view>
+
+<view class="interactive">
+  <image class="Follower" src="../../images/tiktok/1.png"/>
+  <image class="Like" src="../../images/tiktok/2_1.png"/>
+  <image class="Comment" src="../../images/tiktok/3_1.png" />
+  <image class="Share" src="../../images/titok/4_1.png" />
+  <image class="floating" src="../../images/tiktok/Floating Tones.png" />
+</view>
+

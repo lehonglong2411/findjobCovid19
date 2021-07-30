@@ -1,0 +1,39 @@
+<view class="body">
+
+  <!-- header -->
+  <view class="header">
+        <view class="header-left">
+            <view class="findjob"></view>
+            <view class="tiki"></view>
+        </view>
+
+        <view class="header-right">
+            <view class="search-icon"></view>
+            <view class="adjusment-icon"></view>
+        </view>
+    </view>
+
+  <!-- profile -->
+  <text class="text-profile">Profile</text>
+  <view class="profile">
+        <view class="main"></view>
+        <view class="contact"></view>                
+    </view> 
+
+  <!-- intro -->
+  <view class="intro">
+    <text class="title">Lời giới thiệu</text>          
+    <text class="content">Với phong cách Chicano đặc trưng,  bằng sự nhiệt tình, tận tâm và cùng cách phục vụ chu đáo của mình. Tôi tự tin mang đến cho khách hàng của mình những trải nghiệm đầy mới mẻ.</text>
+  </view>     
+  
+  <!-- dichvu -->
+    <text class="service-text">Dịch vụ</text> 
+  <view class="service">            
+      <view class="haircut"></view>
+      <view class="uonsau"></view>
+      <view class="banhmy"></view>
+      <view class="tsthantre"></view>
+      <view class="blackpink"></view>
+  </view> 
+
+</view>
